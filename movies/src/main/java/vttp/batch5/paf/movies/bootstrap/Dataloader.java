@@ -57,7 +57,7 @@ public class Dataloader implements CommandLineRunner {
 
     ApplicationArguments argsOptions = new DefaultApplicationArguments(args);
 
-    String moviesZipFileName = "../data/movies_post_2010.zip";
+    String moviesZipFileName = "data/movies_post_2010.zip";
     
 		if (argsOptions.containsOption("load")){
 			moviesZipFileName = argsOptions.getOptionValues("load").get(0);
